@@ -6,7 +6,7 @@ const ToggleMessage = () => {
   };
   return (
     <div>
-      <button onClick={handleClick}>Show  Message</button>
+      <button onClick={handleClick}>Show  Mes sage</button>
       {isVisible === true ? <p>Hi Everyone</p> : null}
     </div>
   );
